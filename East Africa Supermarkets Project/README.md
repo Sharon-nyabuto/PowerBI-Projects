@@ -51,7 +51,7 @@ The cleaned dataset was modelled in Power BI using a star schema.
 A Date table was created to support time intelligence DAX measures including month-over-month change, peak month detection and seasonality strength.
 
 > *Power BI Model View(Schema)*
-<img src="images/image-1.png" width="450"/>
+<img src="Images/image-1.png" width="450"/>
 
 **Key relationships:**
 - `Date[Date]` → `Facts_table[transaction_date]` - one-to-many, active
@@ -60,7 +60,7 @@ A Date table was created to support time intelligence DAX measures including mon
 ## Revenue Analysis
 
 > *Revenue by Country Donut Chart*
-<img src="images/image-2.png" width="450"/>
+<img src="Images/image-2.png" width="450"/>
 
 Total revenue: **KES 803,117** across 999 transactions.
 
@@ -77,7 +77,7 @@ Kenya underperforms relative to its store presence, and has the lowest AOV (KES 
 ## Product Analysis
 
 > *Top 5 vs Bottom 5 Products*
-<img src="images/image-3.png" width="600"/>
+<img src="Images/image-3.png" width="600"/>
 
 Six categories, 24 products. Grains lead revenue at **KES 172K**, followed by Household (153K) and Dairy (148K).
 
@@ -94,7 +94,7 @@ Dairy and Personal Care show the opposite: moderate volume, strong revenue, indi
 ## Seasonal Analysis
 
 >*MoM % Change Bar Chart — Red/Green*
-<img src="images/image-4.png" width="450"/>
+<img src="Images/image-4.png" width="450"/>
 
 Monthly performance shows moderate seasonality, with peak month revenue being 1.7 times the weakest month.
 
@@ -111,7 +111,7 @@ Month-over-month trends show recurring fluctuations rather than a sustained traj
 ## Store Analysis
 
 > *Avg Discount % by Store — Red/Green Conditional Formatting*
-<img src="images/image-5.png" width="450"/>
+<img src="Images/image-5.png" width="450"/>
 
 The top performing stores (Shoprite, Shoppers Plaza and Quickmart) together account for ~40% of total revenue, suggesting a highly concentrated revenue in 3 out of 13 stores. The bottom 3 stores (Tuskys, Uchumi, Chandarana) contribute under 7% combined.
 
